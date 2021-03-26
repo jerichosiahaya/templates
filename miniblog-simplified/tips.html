@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="theme-color" content="#2a2a2a">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="assets/pictures/icon.png" />
+    <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Mono&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="https://emoji-css.afeld.me/emoji.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/styles/hamburger.css">
+  <link rel="stylesheet" href="/assets/styles/style.min.css?version=1">
+    <title>Mini Blog Simplified Template | Jericho Siahaya</title>
+</head>
+
+<body>
+    <div class="container">
+        <!-- Title & Header -->
+        <div class="title">
+            <a href="https://data.ultimagz.com/">
+                <h3 class="mod-title"><i class="em em-kiwifruit" aria-role="presentation"
+                        aria-label="KIWIFRUIT"></i></i>
+                    mini.blog.simplified</h3>
+            </a>
+            <nav>
+                <div class="hamburger hamburger--elastic" style="float:right;">
+                    <div class="hamburger-box">
+                        <div class="hamburger-inner"></div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+
+        <!--Navbar Hamburger-->
+        <div id="popUpNav" class="menu" onclick="closeNav()">
+            <a href="tips.html" target="_blank">
+                <h2> Some Tips </h2>
+            </a>
+            <a href="https://github.com/jerichosiahaya" target="_blank">
+                <h2> My Github </h2>
+            </a>
+            <a href="https://github.com/jerichosiahaya/miniblog-simplified" target="_blank">
+                <h2> Download this template </h2>
+            </a>
+            <div class="footer-nav">
+                <i class="em em-email" aria-role="presentation" aria-label="ENVELOPE"></i>
+                <b><u>jericho.siahaya@gmail.com</u></b></a>
+            </div>
+        </div>
+
+        <!-- Content -->
+        <div id="wrapper">
+            <!-- Date and Title -->
+            <!-- Use class="img-center" for centering the pictures -->
+            <div class="caption">March 2021</div>
+            <h1>Some Tips</h1>
+            <h3>Animation on Scroll</h3>
+            <p>I use Animation on Scroll (AOS) to add awesome effect on pictures when you scroll the page. But
+                sometimes, the pictures won't show the effect if it's positioned not on the scrollable position (like
+                the first picture below)</p>
+
+            <div class="item" data-aos="fade-left">
+                <img class="meme"
+                    src="https://images.unsplash.com/photo-1612831457048-9823ce1ebb6e?ixid=MXwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80"
+                    alt="">
+            </div>
+
+            <div class="item" data-aos="fade-right">
+                <img class="meme"
+                    src="https://images.unsplash.com/photo-1612832164313-ac0d7e07b5ce?ixid=MXwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80"
+                    alt="">
+            </div>
+
+            <p>You can check all the effect on AOS documentation <a
+                    href="https://github.com/michalsnik/aos#animations">here</a>.
+                Besides the pictures, you can also add AOS effect on paragraph as well. Like this:</p>
+
+            <div class="item" data-aos="flip-up">
+                <p><b><i>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                            labore et
+                            dolore
+                            magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                            aliquip ex ea
+                            commodo
+                            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+                            fugiat nulla
+                            pariatur.</i></b></p>
+            </div>
+
+            <div class="item" data-aos="zoom-in">
+                <p><b><i>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                            labore et
+                            dolore
+                            magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                            aliquip ex ea
+                            commodo
+                            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+                            fugiat nulla
+                            pariatur.</i></b></p>
+            </div>
+
+            <h3>Chart</h3>
+            <p>This is optional, but you can add a chart in the post. Like this:</p>
+            <canvas id="bar-chart" width="800" height="600"></canvas>
+            <p>To make a chart, I use Chart.js. You can check all the documentation <a
+                    href="https://www.chartjs.org/">here</a>. </p>
+
+            <h3>Emoji CSS <i class="em em-blush" aria-role="presentation"
+                    aria-label="SMILING FACE WITH SMILING EYES"></i>
+            </h3>
+            <p>I don't use font awesome like usual blog do, but I found a great alternative which is an emoji but based
+                on
+                CSS. Check the documentation <a href="https://emoji-css.afeld.me/">here</a>. <i class="em em-boy"
+                    aria-role="presentation" aria-label="BOY"></i><i class="em em-cheese_wedge" aria-role="presentation"
+                    aria-label="CHEESE WEDGE"></i><i class="em em-fireworks" aria-role="presentation"
+                    aria-label="FIREWORKS"></i>
+            </p>
+            <hr>
+            <p>This is a simple blog, so there is no much features I want to add but you can modify this template as
+                your own.
+                Feel free to download and change whatever you want to change in this template. Don't forget to give me
+                credit in
+                case you want to use this template to your public domain.</p>
+
+            <p>Thanks!</p>
+            <p style="font-size: small; color: grey;">— Jericho Siahaya</p>
+
+            <!-- Footer -->
+            <div class="footer">
+                <p><a href="https://github.com/jerichosiahaya/miniblog-simplified" target="_blank">Download</a></p>
+                <p>|</p>
+                <p>Jericho Siahaya's Template © 2021</p>
+            </div>
+            <!-- Footer -->
+
+            <!--close wrapper-->
+        </div>
+        <!--close container-->
+    </div>
+    <!-- JS Script goes here -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="assets/script/script.min.js?version=2" charset="utf-8"></script>
+</body>
+
+</html>
